@@ -1,14 +1,1 @@
-{
-    "Version": "2012-10-17",
-    "Statement": [
-        {
-            "Sid": "VisualEditor0",
-            "Effect": "Allow",
-            "Action": [
-                "iam:CreateGroup",
-                "iam:AttachGroupPolicy"
-            ],
-            "Resource": "*"
-        }
-    ]
-}
+JSON file is for custom group policy where you can give permi to a user to only create group and assign policies.
